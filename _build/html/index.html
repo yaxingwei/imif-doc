@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Welcome to UVCDAT_IMIF Package’s documentation! &mdash; UVCDAT_IMIF 1.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="UVCDAT_IMIF 1.0 documentation" href="#" />
+    <link rel="next" title="Data Modules" href="Data.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="Data.html" title="Data Modules"
+             accesskey="N">next</a> |</li>
+        <li><a href="#">UVCDAT_IMIF 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="welcome-to-uvcdat-imif-package-s-documentation">
+<h1>Welcome to UVCDAT_IMIF Package&#8217;s documentation!<a class="headerlink" href="#welcome-to-uvcdat-imif-package-s-documentation" title="Permalink to this headline">¶</a></h1>
+<p>UVCDAT_IMIF package is a Vistrails package developed for climate model data inter-comparison.</p>
+<p>How to use the package?</p>
+<ol class="arabic simple">
+<li>You need have UV-CDAT (<a class="reference external" href="http://uv-cdat.llnl.gov/">http://uv-cdat.llnl.gov/</a>) installed before using this package.</li>
+<li>Put the uvcdat_imif folder to the .vistrails/userpackages subdirectory of your home directory.</li>
+<li>Open UV-CDAT. Open Vistrails from &#8220;Vistrails -&gt; Builder&#8221;</li>
+<li>Click on the Edit menu (or the VisTrails menu on Mac OS X), select the Preferences option and select the Module Packages tab. In the dialog, select the uvcdat_imif package, then click on Enable. This should move the package to the Enabled packages list. Close the dialog.</li>
+<li>The package should now be visible in the VisTrails builder.A list of modules are available in the package.</li>
+</ol>
+<p>Contents:</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Data.html">Data Modules</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="DownloadDaymetTiles.html">DownloadDaymetTiles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="GetDaymetTileList.html">GetDaymetTileList</a></li>
+<li class="toctree-l2"><a class="reference internal" href="GetMatrixFromVariables.html">GetMatrixFromVariables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ReadMatrixFromFile.html">ReadMatrixFromFile</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SaveVariablesToFiles.html">SaveVariablesToFiles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ReadMultipleVariables.html">ReadMultipleVariables</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Processing.html">Processing Modules</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="UnitConvertor.html">UnitConverter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Mosaic.html">Mosaic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Regrid.html">Regrid</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SpatialSubset.html">SpatialSubset</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Analysis.html">Analysis Modules</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="TemporalAggregation.html">TemporalAggregation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="LongTermTemporalMean.html">LongTermTemporalMean</a></li>
+<li class="toctree-l2"><a class="reference internal" href="UnaryVariableStatistics.html">UnaryVariableStatistics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StatisticsAlongSpatialAxis.html">StatisticsAlongSpatialAxis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StatisticsAlongTemporalAxis.html">StatisticsAlongTemporalAxis</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Visualization.html">Visualization Modules</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="SeriesPlot.html">SeriesPlot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Dendrogram.html">Dendrogram</a></li>
+<li class="toctree-l2"><a class="reference internal" href="TaylorDiagram.html">TalorDiagram</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ParallelCoordinates.html">ParallelCoordinates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="HeatMap.html">HeatMap</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Next topic</h4>
+  <p class="topless"><a href="Data.html"
+                        title="next chapter">Data Modules</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/index.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="Data.html" title="Data Modules"
+             >next</a> |</li>
+        <li><a href="#">UVCDAT_IMIF 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, ORNL DataONE.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2b1.
+    </div>
+  </body>
+</html>

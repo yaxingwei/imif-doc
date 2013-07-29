@@ -1,0 +1,15 @@
+Analysis Modules
+======================
+
+
+Contents:
+
+.. toctree::
+   :maxdepth: 2
+
+   
+   TemporalAggregation
+   LongTermTemporalMean
+   UnaryVariableStatistics
+   StatisticsAlongSpatialAxis
+   StatisticsAlongTemporalAxis
